@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+.landing {
+    background: url('/src/components/imgs/towing_red_car_f.jpg') no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .landing h1 {
+    font-size: 4rem;
+    margin: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+  
+  .landing p{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: bolder;
+  }
+
+  .home-btn-call {
+    background-color: #fff;
+    color: #333;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .home-btn-call:hover{
+    background-color: #102E4A;
+    color: #ECC30B;
+  }
+
+  /* review section */
+  .review-section {
+    padding: 0 4rem ;
+    background-color: #fff;
+  }
+  
+  .review-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .review-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+  }
+  
+  .review {
+    flex: 1;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+  }
+  
+  .rating {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ECC30B;
+  }
+  
+  .author {
+    font-style: italic;
+    margin-top: 1rem;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 987px) {
+    .landing h1{
+      font-size: 2rem;
+    }
+
+    .landing p{
+      font-size: 1.5rem;
+    }
+
+    .review-section {
+      padding:0 1rem ;
+    }
+
+    .reviews {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 374px) {
+    .review-section {
+      padding: 0 1rem ;
+    }
+    
+    .reviews {
+      gap: 1rem;
+    }
+
+    .review p{
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

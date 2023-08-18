@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Fjalla+One&family=Source+Code+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #102E4A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 1rem;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.business__title{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: .75rem;
+}
+
+nav ul li {
+    list-style: none; 
+ }
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: block;
+    padding: .75rem;
+}
+
+
+ nav li:hover {
+     background-color: #777;
+     border-radius: 4px;
+     color: #ECC30B;
+    }
+    
+    
+    .active {
+        background-color: #555;
+        border-radius: 4px;
+    }
+/* hamburguer menu */
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.95rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 1.2rem;
+}
+
+nav .menu span{
+    height: 0.2rem;
+    width: 100%;   
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 945px) {
+    nav .menu {
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .business__title{
+        font-size: 1rem;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open{
+        display: flex;
+    }
+
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+

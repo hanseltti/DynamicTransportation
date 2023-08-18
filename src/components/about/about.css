@@ -1,0 +1,93 @@
+.about-main-container{
+  background-color: #f7f7f7;
+}
+
+.about-banner {
+    margin: 0;
+    padding: 0;
+    background: url('/src/components/imgs/towing_black_car.jpg') no-repeat center/cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  
+  }
+
+.about {
+    background-color: #f7f7f7;
+  }
+  
+  .about-container {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Fjalla One', sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.grid-item {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #d9d9d9;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+  }
+
+  .about-span{
+    text-transform: uppercase;
+  }
+
+  .about-btn-container{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+  .btn-call{
+    background-color: #102E4A;
+    color: #ECC30B;
+    padding: 1rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+  }
+
+  .btn-call:hover{
+    background-color: #ECC30B;
+    color: #102E4A;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 987px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .grid-container {
+      margin: .5rem;
+    }
+  }
+  

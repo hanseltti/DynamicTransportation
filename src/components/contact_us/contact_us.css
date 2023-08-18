@@ -1,0 +1,81 @@
+.contact-container h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+  
+.contact-info{
+  margin: 2rem;
+  display: grid;
+  place-items: center;
+  
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-details{
+  padding: 2rem;
+}
+
+.contact-details h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem;
+}
+
+.contact-details p{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+  .contact-form {
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contact-form button {
+    background-color: #102E4A;
+    color: #ECC30B;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ECC30B;
+    color: #102E4A;
+    font-weight: bold;
+  }
+
+  .google-map {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+  
+  
+  @media (max-width: 987px) {
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+@media (max-width: 425px) {
+
+}
+
+
+
+

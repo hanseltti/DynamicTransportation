@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Route, Routes} from 'react-router-dom'
+import Navbar from './components/navbat/Navbar';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Services from './components/services/Services';
+import ContactUs from './components/contact_us/ContactUs';
+import Footer from './components/footer/Footer';
+import SEO from './components/SEO';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SEO title="Towing and Hauling Services in Central Florida" 
+      description="We provide reliable towing and hauling services in Central Florida. Local and long-distance towing, emergency roadside assistance, and more."
+      author="transportation towing and hauling"
+      keywords="towing, hauling, Central Florida, vehicle transport"/>
+     <Navbar /> 
+     
+    <Routes>
+      <Route path='/' element={<Home /> } />
+      <Route path='/home' element={<Home /> } />
+      <Route path='/about' element={<About />}/>
+      <Route path='/services' element={<Services />}/>
+      <Route path='/contact' element={<ContactUs />}/>
+    </Routes>
+  
+     <Footer/>
     </div>
-  );
+  )
 }
 
 export default App;
