@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DynamicTransportation/static/css/main.fa151d53.css",
+    "main.js": "/DynamicTransportation/static/js/main.ff81f22a.js",
+    "static/media/towing_black_car.jpg": "/DynamicTransportation/static/media/towing_black_car.2f0f64f3cd19e45e80ef.jpg",
+    "static/media/towing_red_car_f.jpg": "/DynamicTransportation/static/media/towing_red_car_f.4199cd27163f77e70409.jpg",
+    "index.html": "/DynamicTransportation/index.html",
+    "main.fa151d53.css.map": "/DynamicTransportation/static/css/main.fa151d53.css.map",
+    "main.ff81f22a.js.map": "/DynamicTransportation/static/js/main.ff81f22a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa151d53.css",
+    "static/js/main.ff81f22a.js"
+  ]
+}
