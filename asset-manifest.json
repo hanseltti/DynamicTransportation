@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DynamicTransportation/static/css/main.9978fff1.css",
-    "main.js": "/DynamicTransportation/static/js/main.98528093.js",
+    "main.js": "/DynamicTransportation/static/js/main.202aa940.js",
     "static/media/towing_red_car_f.jpg": "/DynamicTransportation/static/media/towing_red_car_f.4199cd27163f77e70409.jpg",
     "static/media/arvlogoclear.png": "/DynamicTransportation/static/media/arvlogoclear.7854157fcc297d421399.png",
     "static/media/Ariel_Truck.jpg": "/DynamicTransportation/static/media/Ariel_Truck.984067953ee2d481217c.jpg",
@@ -10,10 +10,10 @@
     "static/media/towing_car_man_workin.jpg": "/DynamicTransportation/static/media/towing_car_man_workin.a771d952193484b667db.jpg",
     "index.html": "/DynamicTransportation/index.html",
     "main.9978fff1.css.map": "/DynamicTransportation/static/css/main.9978fff1.css.map",
-    "main.98528093.js.map": "/DynamicTransportation/static/js/main.98528093.js.map"
+    "main.202aa940.js.map": "/DynamicTransportation/static/js/main.202aa940.js.map"
   },
   "entrypoints": [
     "static/css/main.9978fff1.css",
-    "static/js/main.98528093.js"
+    "static/js/main.202aa940.js"
   ]
 }
