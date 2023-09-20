@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DynamicTransportation/static/css/main.f12eea27.css",
-    "main.js": "/DynamicTransportation/static/js/main.bb18d9c6.js",
+    "main.css": "/DynamicTransportation/static/css/main.a8bce941.css",
+    "main.js": "/DynamicTransportation/static/js/main.5c7d3262.js",
     "static/media/towing_red_car_f.jpg": "/DynamicTransportation/static/media/towing_red_car_f.4199cd27163f77e70409.jpg",
     "static/media/arvlogoclear.png": "/DynamicTransportation/static/media/arvlogoclear.7854157fcc297d421399.png",
     "static/media/Ariel_Truck.jpg": "/DynamicTransportation/static/media/Ariel_Truck.984067953ee2d481217c.jpg",
@@ -12,11 +12,11 @@
     "static/media/chino-truck.jpg": "/DynamicTransportation/static/media/chino-truck.fed7bb6f82e45950c3e4.jpg",
     "static/media/trust.jpg": "/DynamicTransportation/static/media/trust.1689a7769a8a7283a8c1.jpg",
     "index.html": "/DynamicTransportation/index.html",
-    "main.f12eea27.css.map": "/DynamicTransportation/static/css/main.f12eea27.css.map",
-    "main.bb18d9c6.js.map": "/DynamicTransportation/static/js/main.bb18d9c6.js.map"
+    "main.a8bce941.css.map": "/DynamicTransportation/static/css/main.a8bce941.css.map",
+    "main.5c7d3262.js.map": "/DynamicTransportation/static/js/main.5c7d3262.js.map"
   },
   "entrypoints": [
-    "static/css/main.f12eea27.css",
-    "static/js/main.bb18d9c6.js"
+    "static/css/main.a8bce941.css",
+    "static/js/main.5c7d3262.js"
   ]
 }
